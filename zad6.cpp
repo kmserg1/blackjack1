@@ -99,7 +99,7 @@ void PrintCard(const Card &card){
 			std::cout <<  "PIKI ";
 			break;
 		default:
-			std::cout <<  "ERROR in mast!!! ";
+			std::cout <<  "ERROR in mast !-!-! ";
 		}
 	//std::cout <<  '\n';
 }
