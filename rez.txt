@@ -1,0 +1,216 @@
+2 TREF (kresta)3 TREF (kresta)4 TREF (kresta)5 TREF (kresta)6 TREF (kresta)7 TREF (kresta)8 TREF (kresta)9 TREF (kresta)10 TREF (kresta)valet TREF (kresta)dama TREF (kresta)korol TREF (kresta)tuz TREF (kresta)
+2 BUBNA (rombik)3 BUBNA (rombik)4 BUBNA (rombik)5 BUBNA (rombik)6 BUBNA (rombik)7 BUBNA (rombik)8 BUBNA (rombik)9 BUBNA (rombik)10 BUBNA (rombik)valet BUBNA (rombik)dama BUBNA (rombik)korol BUBNA (rombik)tuz BUBNA (rombik)
+2 CHERVI (serdechko)3 CHERVI (serdechko)4 CHERVI (serdechko)5 CHERVI (serdechko)6 CHERVI (serdechko)7 CHERVI (serdechko)8 CHERVI (serdechko)9 CHERVI (serdechko)10 CHERVI (serdechko)valet CHERVI (serdechko)dama CHERVI (serdechko)korol CHERVI (serdechko)tuz CHERVI (serdechko)
+2 PIKI 3 PIKI 4 PIKI 5 PIKI 6 PIKI 7 PIKI 8 PIKI 9 PIKI 10 PIKI valet PIKI dama PIKI korol PIKI tuz PIKI 
+
+=== Shuffling the deck ===
+
+Iteration 1; deck[0]: 2 TREF (kresta)
+random index ra = 1, Corresponse card: 3 TREF (kresta)
+After swap: deck[0] = 2 TREF (kresta); deck[1] = 2 TREF (kresta)
+
+Iteration 2; deck[1]: 2 TREF (kresta)
+random index ra = 31, Corresponse card: 7 CHERVI (serdechko)
+After swap: deck[1] = 2 TREF (kresta); deck[31] = 2 TREF (kresta)
+
+Iteration 3; deck[2]: 4 TREF (kresta)
+random index ra = 10, Corresponse card: dama TREF (kresta)
+After swap: deck[2] = 4 TREF (kresta); deck[10] = 4 TREF (kresta)
+
+Iteration 4; deck[3]: 5 TREF (kresta)
+random index ra = 29, Corresponse card: 5 CHERVI (serdechko)
+After swap: deck[3] = 5 TREF (kresta); deck[29] = 5 TREF (kresta)
+
+Iteration 5; deck[4]: 6 TREF (kresta)
+random index ra = 43, Corresponse card: 6 PIKI 
+After swap: deck[4] = 6 TREF (kresta); deck[43] = 6 TREF (kresta)
+
+Iteration 6; deck[5]: 7 TREF (kresta)
+random index ra = 19, Corresponse card: 8 BUBNA (rombik)
+After swap: deck[5] = 7 TREF (kresta); deck[19] = 7 TREF (kresta)
+
+Iteration 7; deck[6]: 8 TREF (kresta)
+random index ra = 43, Corresponse card: 6 TREF (kresta)
+After swap: deck[6] = 8 TREF (kresta); deck[43] = 8 TREF (kresta)
+
+Iteration 8; deck[7]: 9 TREF (kresta)
+random index ra = 44, Corresponse card: 7 PIKI 
+After swap: deck[7] = 9 TREF (kresta); deck[44] = 9 TREF (kresta)
+
+Iteration 9; deck[8]: 10 TREF (kresta)
+random index ra = 28, Corresponse card: 4 CHERVI (serdechko)
+After swap: deck[8] = 10 TREF (kresta); deck[28] = 10 TREF (kresta)
+
+Iteration 10; deck[9]: valet TREF (kresta)
+random index ra = 47, Corresponse card: 10 PIKI 
+After swap: deck[9] = valet TREF (kresta); deck[47] = valet TREF (kresta)
+
+Iteration 11; deck[10]: 4 TREF (kresta)
+random index ra = 46, Corresponse card: 9 PIKI 
+After swap: deck[10] = 4 TREF (kresta); deck[46] = 4 TREF (kresta)
+
+Iteration 12; deck[11]: korol TREF (kresta)
+random index ra = 51, Corresponse card: tuz PIKI 
+After swap: deck[11] = korol TREF (kresta); deck[51] = korol TREF (kresta)
+
+Iteration 13; deck[12]: tuz TREF (kresta)
+random index ra = 35, Corresponse card: valet CHERVI (serdechko)
+After swap: deck[12] = tuz TREF (kresta); deck[35] = tuz TREF (kresta)
+
+Iteration 14; deck[13]: 2 BUBNA (rombik)
+random index ra = 39, Corresponse card: 2 PIKI 
+After swap: deck[13] = 2 BUBNA (rombik); deck[39] = 2 BUBNA (rombik)
+
+Iteration 15; deck[14]: 3 BUBNA (rombik)
+random index ra = 26, Corresponse card: 2 CHERVI (serdechko)
+After swap: deck[14] = 3 BUBNA (rombik); deck[26] = 3 BUBNA (rombik)
+
+Iteration 16; deck[15]: 4 BUBNA (rombik)
+random index ra = 43, Corresponse card: 8 TREF (kresta)
+After swap: deck[15] = 4 BUBNA (rombik); deck[43] = 4 BUBNA (rombik)
+
+Iteration 17; deck[16]: 5 BUBNA (rombik)
+random index ra = 39, Corresponse card: 2 BUBNA (rombik)
+After swap: deck[16] = 5 BUBNA (rombik); deck[39] = 5 BUBNA (rombik)
+
+Iteration 18; deck[17]: 6 BUBNA (rombik)
+random index ra = 18, Corresponse card: 7 BUBNA (rombik)
+After swap: deck[17] = 6 BUBNA (rombik); deck[18] = 6 BUBNA (rombik)
+
+Iteration 19; deck[18]: 6 BUBNA (rombik)
+random index ra = 27, Corresponse card: 3 CHERVI (serdechko)
+After swap: deck[18] = 6 BUBNA (rombik); deck[27] = 6 BUBNA (rombik)
+
+Iteration 20; deck[19]: 7 TREF (kresta)
+random index ra = 9, Corresponse card: valet TREF (kresta)
+After swap: deck[19] = 7 TREF (kresta); deck[9] = 7 TREF (kresta)
+
+Iteration 21; deck[20]: 9 BUBNA (rombik)
+random index ra = 22, Corresponse card: valet BUBNA (rombik)
+After swap: deck[20] = 9 BUBNA (rombik); deck[22] = 9 BUBNA (rombik)
+
+Iteration 22; deck[21]: 10 BUBNA (rombik)
+random index ra = 17, Corresponse card: 6 BUBNA (rombik)
+After swap: deck[21] = 10 BUBNA (rombik); deck[17] = 10 BUBNA (rombik)
+
+Iteration 23; deck[22]: 9 BUBNA (rombik)
+random index ra = 9, Corresponse card: 7 TREF (kresta)
+After swap: deck[22] = 9 BUBNA (rombik); deck[9] = 9 BUBNA (rombik)
+
+Iteration 24; deck[23]: dama BUBNA (rombik)
+random index ra = 29, Corresponse card: 5 TREF (kresta)
+After swap: deck[23] = dama BUBNA (rombik); deck[29] = dama BUBNA (rombik)
+
+Iteration 25; deck[24]: korol BUBNA (rombik)
+random index ra = 35, Corresponse card: tuz TREF (kresta)
+After swap: deck[24] = korol BUBNA (rombik); deck[35] = korol BUBNA (rombik)
+
+Iteration 26; deck[25]: tuz BUBNA (rombik)
+random index ra = 38, Corresponse card: tuz CHERVI (serdechko)
+After swap: deck[25] = tuz BUBNA (rombik); deck[38] = tuz BUBNA (rombik)
+
+Iteration 27; deck[26]: 3 BUBNA (rombik)
+random index ra = 2, Corresponse card: 4 TREF (kresta)
+After swap: deck[26] = 3 BUBNA (rombik); deck[2] = 3 BUBNA (rombik)
+
+Iteration 28; deck[27]: 6 BUBNA (rombik)
+random index ra = 35, Corresponse card: korol BUBNA (rombik)
+After swap: deck[27] = 6 BUBNA (rombik); deck[35] = 6 BUBNA (rombik)
+
+Iteration 29; deck[28]: 10 TREF (kresta)
+random index ra = 42, Corresponse card: 5 PIKI 
+After swap: deck[28] = 10 TREF (kresta); deck[42] = 10 TREF (kresta)
+
+Iteration 30; deck[29]: dama BUBNA (rombik)
+random index ra = 33, Corresponse card: 9 CHERVI (serdechko)
+After swap: deck[29] = dama BUBNA (rombik); deck[33] = dama BUBNA (rombik)
+
+Iteration 31; deck[30]: 6 CHERVI (serdechko)
+random index ra = 51, Corresponse card: korol TREF (kresta)
+After swap: deck[30] = 6 CHERVI (serdechko); deck[51] = 6 CHERVI (serdechko)
+
+Iteration 32; deck[31]: 2 TREF (kresta)
+random index ra = 43, Corresponse card: 4 BUBNA (rombik)
+After swap: deck[31] = 2 TREF (kresta); deck[43] = 2 TREF (kresta)
+
+Iteration 33; deck[32]: 8 CHERVI (serdechko)
+random index ra = 13, Corresponse card: 2 BUBNA (rombik)
+After swap: deck[32] = 8 CHERVI (serdechko); deck[13] = 8 CHERVI (serdechko)
+
+Iteration 34; deck[33]: dama BUBNA (rombik)
+random index ra = 10, Corresponse card: 4 TREF (kresta)
+After swap: deck[33] = dama BUBNA (rombik); deck[10] = dama BUBNA (rombik)
+
+Iteration 35; deck[34]: 10 CHERVI (serdechko)
+random index ra = 21, Corresponse card: 10 BUBNA (rombik)
+After swap: deck[34] = 10 CHERVI (serdechko); deck[21] = 10 CHERVI (serdechko)
+
+Iteration 36; deck[35]: 6 BUBNA (rombik)
+random index ra = 4, Corresponse card: 6 TREF (kresta)
+After swap: deck[35] = 6 BUBNA (rombik); deck[4] = 6 BUBNA (rombik)
+
+Iteration 37; deck[36]: dama CHERVI (serdechko)
+random index ra = 29, Corresponse card: dama BUBNA (rombik)
+After swap: deck[36] = dama CHERVI (serdechko); deck[29] = dama CHERVI (serdechko)
+
+Iteration 38; deck[37]: korol CHERVI (serdechko)
+random index ra = 13, Corresponse card: 8 CHERVI (serdechko)
+After swap: deck[37] = korol CHERVI (serdechko); deck[13] = korol CHERVI (serdechko)
+
+Iteration 39; deck[38]: tuz BUBNA (rombik)
+random index ra = 49, Corresponse card: dama PIKI 
+After swap: deck[38] = tuz BUBNA (rombik); deck[49] = tuz BUBNA (rombik)
+
+Iteration 40; deck[39]: 5 BUBNA (rombik)
+random index ra = 5, Corresponse card: 7 TREF (kresta)
+After swap: deck[39] = 5 BUBNA (rombik); deck[5] = 5 BUBNA (rombik)
+
+Iteration 41; deck[40]: 3 PIKI 
+random index ra = 8, Corresponse card: 10 TREF (kresta)
+After swap: deck[40] = 3 PIKI ; deck[8] = 3 PIKI 
+
+Iteration 42; deck[41]: 4 PIKI 
+random index ra = 44, Corresponse card: 9 TREF (kresta)
+After swap: deck[41] = 4 PIKI ; deck[44] = 4 PIKI 
+
+Iteration 43; deck[42]: 10 TREF (kresta)
+random index ra = 5, Corresponse card: 5 BUBNA (rombik)
+After swap: deck[42] = 10 TREF (kresta); deck[5] = 10 TREF (kresta)
+
+Iteration 44; deck[43]: 2 TREF (kresta)
+random index ra = 44, Corresponse card: 4 PIKI 
+After swap: deck[43] = 2 TREF (kresta); deck[44] = 2 TREF (kresta)
+
+Iteration 45; deck[44]: 2 TREF (kresta)
+random index ra = 31, Corresponse card: 2 TREF (kresta)
+After swap: deck[44] = 2 TREF (kresta); deck[31] = 2 TREF (kresta)
+
+Iteration 46; deck[45]: 8 PIKI 
+random index ra = 32, Corresponse card: 8 CHERVI (serdechko)
+After swap: deck[45] = 8 PIKI ; deck[32] = 8 PIKI 
+
+Iteration 47; deck[46]: 4 TREF (kresta)
+random index ra = 35, Corresponse card: 6 BUBNA (rombik)
+After swap: deck[46] = 4 TREF (kresta); deck[35] = 4 TREF (kresta)
+
+Iteration 48; deck[47]: valet TREF (kresta)
+random index ra = 19, Corresponse card: 7 TREF (kresta)
+After swap: deck[47] = valet TREF (kresta); deck[19] = valet TREF (kresta)
+
+Iteration 49; deck[48]: valet PIKI 
+random index ra = 50, Corresponse card: korol PIKI 
+After swap: deck[48] = valet PIKI ; deck[50] = valet PIKI 
+
+Iteration 50; deck[49]: tuz BUBNA (rombik)
+random index ra = 10, Corresponse card: dama BUBNA (rombik)
+After swap: deck[49] = tuz BUBNA (rombik); deck[10] = tuz BUBNA (rombik)
+
+Iteration 51; deck[50]: valet PIKI 
+random index ra = 29, Corresponse card: dama CHERVI (serdechko)
+After swap: deck[50] = valet PIKI ; deck[29] = valet PIKI 
+
+Iteration 52; deck[51]: 6 CHERVI (serdechko)
+random index ra = 21, Corresponse card: 10 CHERVI (serdechko)
+After swap: deck[51] = 6 CHERVI (serdechko); deck[21] = 6 CHERVI (serdechko)
+
+
