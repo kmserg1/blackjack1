@@ -1,6 +1,7 @@
 #include <iostream>
 #include <array>
-#include <cstdlib> // ��� ������� rand() � srand()
+#include <cstdlib> 
+#define TARGET_RATE 21
 
 int getRandomNumber(int min,int max)
 {
@@ -174,9 +175,34 @@ int main(){
 
 	// TURN 1
 
-	std::cout<<"Player, it's your turn. Enter 1 to draw a card or 0 to abstain: ";
+	std::cout<<"Player, it's your turn. Enter 1 to hit a card or 0 to stand: ";
 	int turn;
 	std::cin>>turn;	
+
+	if(turn==1){
+		tmp_var=getCardValue(deck[indexCard++]);
+		std::cout<<"You get " << tmp_var << " points. ";
+		gamer_rate+=tmp_var;
+		if(gamer_rate>TARGET_RATE){
+			std::cout<<"You lose!!!\n"<<"You total rate " << gamer_rate << " points\n";
+		}
+		else{
+			std::cout<<"You total rate " << gamer_rate << " points\n";
+		}
+		
+	}
+	else if(turn==0){
+		std::cout<<"You abstain\n";
+		if(gamer_rate>TARGET_RATE){
+			std::cout<<"You lose!!!\n";
+		}
+		else{
+			std::cout<<"You win!!!\n";
+		}
+	}
+	else{
+		std::cout<<"ERROR!!!\n";
+	}
 
 	return 0;
 }
