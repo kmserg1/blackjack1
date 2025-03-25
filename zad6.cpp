@@ -137,9 +137,12 @@ int getCardValue(Card &card){
 }
 
 
-int main(){    
+int main(){
+// Declaration of the deck of cards
 	std::array<Card,52> deck;
 	int ind;
+	
+	// Create of the deck of cards
 	for(int i=0; i<DOSTOINSTVO_LENGTH; ++i){
 		for(int j=0; j<MAST_LENGTH;++j){
 			ind= j*(DOSTOINSTVO_LENGTH)+i;
@@ -147,18 +150,33 @@ int main(){
 			deck[ind].dostoinstvo=static_cast<Dostoinstvo>(i);
 		}
 	}
-	
-	printDeck(deck);
 
+	// Start Game
+	std::cout<<"=== Start Game ===\n";
+	int dealer_rate {0};
+	int gamer_rate {0};
+	int tmp_var;
 	shuffleDeck(deck);
+	int indexCard{0};
+	Card top_deck=deck[indexCard];
+	
+	std::cout<<"The dealer takes 1 card\n";
+	dealer_rate=getCardValue(top_deck);
+	std::cout<<"This is " << dealer_rate <<" point\n";
+	++indexCard;
+	gamer_rate = getCardValue(deck[indexCard++]);
+	
+	std::cout<<"\nPlayer, you get two cards\nThis is " << gamer_rate;
+	tmp_var=getCardValue(deck[indexCard++]);
+	std::cout<< " and " << tmp_var << " points.  ";
+	gamer_rate+=tmp_var;
+	std::cout<<"Total " << gamer_rate << " points\n";
 
-	printDeck(deck);
-	std::cout<<'\n';
-	PrintCard(deck[51]);
-	std::cout<<'\t'<<getCardValue(deck[51])<<'\n';
-	PrintCard(deck[50]);
-	std::cout<<'\t'<<getCardValue(deck[50])<<'\n';
-	PrintCard(deck[49]);
-	std::cout<<'\t'<<getCardValue(deck[49])<<'\n';
+	// TURN 1
+
+	std::cout<<"Player, it's your turn. Enter 1 to draw a card or 0 to abstain: ";
+	int turn;
+	std::cin>>turn;	
+
 	return 0;
 }
