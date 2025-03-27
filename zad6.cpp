@@ -161,7 +161,7 @@ int main(){
 	int indexCard{0};
 	Card top_deck=deck[indexCard];
 	
-	std::cout<<"The dealer takes 1 card\n";
+	std::cout<<"Move 1.\nThe dealer takes 1 card\n";
 	dealer_rate=getCardValue(top_deck);
 	std::cout<<"This is " << dealer_rate <<" point\n";
 	++indexCard;
@@ -187,9 +187,14 @@ int main(){
 			std::cout<<"You lose!!!\n"<<"You total rate " << gamer_rate << " points\n";
 		}
 		else{
-			std::cout<<"You total rate " << gamer_rate << " points\n";
+			std::cout<<"You rate " << gamer_rate << " points\n";
+			if(gamer_rate==TARGET_RATE){
+				std::cout<<"You win!!!\n";
+			}
+			else
+				std::cout<<"Go to move 2\n";
 		}
-		
+
 	}
 	else if(turn==0){
 		std::cout<<"You abstain\n";
@@ -203,6 +208,15 @@ int main(){
 	else{
 		std::cout<<"ERROR!!!\n";
 	}
+
+// move 2
+std::cout<<"Start move 2\n";
+std::cout<<"The dealer takes a card\n";
+tmp_var=getCardValue(deck[indexCard++]);
+dealer_rate+=tmp_var;
+std::cout<<"This is " << tmp_var << " points\n";	
+std::cout<<"The dealer has " << dealer_rate << " points\n";
+
 
 	return 0;
 }
